@@ -216,10 +216,10 @@ define( 'DB_HOST', 'database');
 /** The Database Collate type. Don't change this if in doubt. */
  * WordPress Database Table prefix.
  * You can have multiple installations in one database if you give each
+ 
 root@a2dc2547ffe5:/var/www/html# exit
+
 [root@ip-172-31-14-145 ec2-user]# docker exec -it database bash
-root@083fd7d125de:/# mysql
-ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
 root@083fd7d125de:/# mysql -u root -p
 Enter password: 
 Welcome to the MySQL monitor.  Commands end with ; or \g.
